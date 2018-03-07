@@ -1,5 +1,4 @@
+# this goes into the .bashrc file found @ ~/.bashrc
 
 PS1="\[\033[1;32m\]\342\224\214\342\224\200\[\033[1;31m\](\[\033[0;33m\]\u\[\033[1;30m\]@\[\033[0;33m\]\H\[\033[1;31m\])\[\033[0;37m\]-\[\033[1;31m\](\[\033[0;34m\]\$(/bin/ls -1 | /usr/bin/wc -l | /bin/sed 's: ::g') files, \$(/bin/ls -lah | /bin/grep -m 1 total | /bin/sed 's/total //')b\[\033[1;31m\])\n\[\033[1;32m\]\342\224\224\342\224\200\342\224\200\342\225\274\[\033[1;31m\](\[\033[0;33m\]\w\[\033[1;31m\])\[\033[0;35m\]-> \[\033[0;32m\]"
-
-#some alternative prompts could be found on usb
 export PS1
